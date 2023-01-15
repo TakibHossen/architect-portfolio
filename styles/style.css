@@ -1,0 +1,464 @@
+/* ---Extra Background--- */
+.architect-bg{
+    background-color: bisque;
+}
+/* -----Header-Style----- */
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 220px;
+}
+.header-menu{
+    display: flex;
+    
+}
+a:link {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    margin-right: 70px;
+    font-weight: 500;
+    font-size: 18px
+}
+/* ----Introc Part---- */
+/* .intro{
+    justify-content: center;
+    align-items: center;
+} */
+.intro{
+    display: flex;
+    align-items: center;
+}
+.intro-title{
+    font-weight: 500;
+    font-size: 64px;
+    
+}
+.intro-des{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+.intro-part{
+    margin: auto;
+    /* background-color: whitesmoke; */
+    width: 600px;
+    height: 220px;
+}
+.intro-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.intro-btn{
+    text-align: center;
+    background-color: gold;
+    color: white;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+/* ----Baner-Part---- */
+.baner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* -----Feature-Part------ */
+.feature{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    text-align: center;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center; */
+    
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+.feature-detail{
+    width: 537px;
+    height: 304px;
+}
+.feature-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+.feature-title .quick{
+    color: #727272;
+}
+.feature-title .our{
+    color: #131313;
+}
+.feature-title .holudia{
+    color: #FF900E;
+}
+.feature-des{
+    font-weight: 400;
+}
+.feature-btn{
+    text-align: center;
+    background-color: gold;
+    color: white;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/* -----Exprience Part----- */
+.exprience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+    /* justify-content: space-around;
+    align-items: center;
+    margin-top: 50px; */
+}
+.lover-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.love-enjoy img{
+    display: inline-block;
+    /* margin-bottom: -50px;
+    margin-left: -50px; */
+    /* background-color: blueviolet; */
+}
+.transition-box{
+    text-align: center;
+    width: 50px;
+    height: 100px;
+    transition: width 5s;
+    background-color: #FF900E;
+}
+.transition-box:hover {
+    left: 0;
+    width: 300px;
+}
+.love-title{
+    width: 75%;
+}
+.skills{
+    text-align: left;
+    margin-left: 25%;
+}
+.ex-img{
+    position: relative;
+    overflow-y: visible;
+    margin-bottom: 30px;
+}
+.ex-btn{
+    position: absolute 50%;
+    overflow-y: 50px;
+    overflow-wrap: anywhere;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: gold;
+    color: white;
+    border: 0;
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+/* -----Some-facts---- */
+.facts{
+}
+.fact-head{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    padding: 50px 60px;
+    margin-left: 100px;
+}
+.award{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    gap: 50px;
+}
+.fact-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: black;
+}
+.award-sucees{
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    padding: 20px 20px;
+    background-color: yellowgreen;
+    border: 1px solid gold;
+    border-radius: 8px;
+}
+.fact-des{
+    color: #727272;
+    size: 14px;
+}
+/* -----Our Sponsor---- */
+.spon-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: black;   
+}
+.spon-des{
+    color: #727272;
+    size: 14px;
+}
+.sponsor-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.sponsor-ultimate img{
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+/* Our Sports */
+.sports-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sports-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    color: black; 
+}
+.sports-des{
+    color: #727272;
+    size: 14px;
+}
+.sports{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.ball{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 220px;
+}
+.feild{
+    width: 500px;
+    height: 400px;
+    margin-left: 600px;
+}
+.ball:hover {
+    transform: translate(600px);
+}
+/* ---Footer-Part--- */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palegoldenrod;
+}
+.footer-part{
+    text-align: center;
+    background-color: rgba(238, 232, 170, 0.051);
+    width: 750px;
+    height: 60px;
+}
+.footer-des{
+    font-weight: 400;
+    font-size: 20px;
+}
+/*--------
+--- Media Quaries-----
+-------------------- */
+/* Mobile Screen-- */
+@media only screen and (max-width:688px){
+    .heading{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    }
+     .head-title{
+        margin-left: 0;
+    }
+    
+    .header-menu{
+        display: list-item;
+        padding: 20px 20px;
+    }
+    .itro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .intro-des{
+        margin-top: 0%;
+    }
+    .intro-down{
+        text-align: center;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+    .intro-btn{
+        margin-top: 100px;
+    }
+    .baner-img{
+        width: 375px;
+        height: 650px;
+        overflow: hidden;
+        align-items: center;
+    }
+    .feature{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+    }
+    .feature-img{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+    }
+    .feature-detail{
+        text-align: justify;
+    }
+    .exprience{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 100%;
+    }
+    .facts{
+        display: grid;
+        text-align: center;
+        justify-items: center;
+        margin: auto;
+        /* align-items: center;
+        text-align: center;
+        justify-content: center; */
+    }
+    .fact-head{
+        text-align: center;
+        align-items: center;
+    }
+    .award{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .sports{
+        width: 100%;
+        height: 100%;
+    }
+    .ex-btn{
+        margin-top: 200px;
+    }
+    .skills{
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* ----Tablet Screen---- */
+
+@media screen and (min-width:689px) and (max-width:850px) {
+    .heading{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .head-title{
+        margin-left: 120px;
+        font-weight: 500px;
+        font-size: 22px;
+    }
+    
+    .header-menu{
+        display: flex;
+        margin-right: 50px;
+        padding: 20px 20px;
+    }
+    .feature{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+    }
+    .feature-detail{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .exprience{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .fact-head{
+        text-align: center;
+    }
+    .award{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .sponsor-img{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    .sponsor-ultimate{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-area: 50px;
+    }
+    
+} 
+
+
+
